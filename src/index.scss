@@ -1,5 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+
+  background-image: url('background.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  max-width: 40%;
+  width: fit-content;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+
+  .title-wrapper {
+    display: flex;
+
+    .logo {
+      width: 135px;
+      height: 135px;
+    }
+    .title {
+      font-family: 'Cabin Sketch', cursive;
+      font-size: 2.5em;
+    }
+  }
+}
+
+.scoreboard {
+  font-size: 2em;
+  font-family: 'Cabin Sketch', cursive;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: 3em;
+  top: 1em;
+  text-align: right;
+}
+
+.cards {
+  margin: auto;
+  //max-width: 1300px;
+  max-width: 1080px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 231px;
+  height: 315px;
+  overflow: hidden;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Henny Penny', cursive;
+  margin: 10px;
+  border: 3px outset goldenrod;
+
+  .card-art {
+    max-width: 217px;
+    max-height: 260px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .card-text {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+.footer {
+  //position: absolute;
+  //left: 0;
+  //right: 0;
+  margin: auto;
+  margin-top: 8em;
+  max-width: fit-content;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+
+  .about-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .credits {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+a:link {
+  text-decoration: none;
 }
