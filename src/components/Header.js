@@ -1,3 +1,4 @@
+
 const Header = () => {
   return (
     <div className='header'>
@@ -6,7 +7,7 @@ const Header = () => {
         <h1 className='title'>Memory Game</h1>
       </div>
       <span>
-        Get points by clicking on an image<br/> but don't click on any of them more
+        Get points by clicking on an image but don't click on any of them more
         than once!
       </span>
     </div>

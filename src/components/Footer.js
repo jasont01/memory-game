@@ -4,7 +4,7 @@ const Footer = () => {
       <h4 className='about-header'>About</h4>
 
       <p>
-        Project created as an assignment from{' '}
+        Created as an assignment from{' '}
         <a href='https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/memory-card'>
           The Odin Project
         </a>
